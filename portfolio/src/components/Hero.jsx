@@ -154,7 +154,7 @@ const Hero = () => {
               >
                 {/* Replace with your actual photo */}
                 <img
-                  src="E:/Projects/Anshidtp.github.io/portfolio/src/assets/intro.png"
+                  src="https://github.com/Anshidtp/Anshidtp.github.io/blob/main/portfolio/src/assets/intro.png?raw=true"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -187,7 +187,7 @@ const Hero = () => {
               </motion.div>
 
               {/* Floating Icons */}
-              <motion.div
+              {/* <motion.div
                 className="absolute -top-6 -right-6 w-20 h-20 glass rounded-2xl flex items-center justify-center"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
@@ -200,7 +200,7 @@ const Hero = () => {
                 transition={{ duration: 3, repeat: Infinity, delay: 0.5 }}
               >
                 <span className="text-3xl">📊</span>
-              </motion.div>
+              </motion.div> */}
             </div>
           </motion.div>
         </motion.div>
