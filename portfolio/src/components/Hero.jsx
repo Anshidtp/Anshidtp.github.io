@@ -115,11 +115,11 @@ const Hero = () => {
                 <Mail size={28} />
               </motion.a>
               <motion.a
-                href="/resume.pdf"
+                href="https://raw.githubusercontent.com/Anshidtp/my_portfolio/main/portfolio/src/assets/Anshid_TP_AEResume.pdf"
                 download
                 className="text-gray-400 hover:text-primary transition-colors flex items-center space-x-2"
                 whileHover={{ scale: 1.2 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.3 }} 
               >
                 <Download size={28} />
               </motion.a>
