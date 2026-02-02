@@ -121,7 +121,7 @@ const About = () => {
                   animate={inView ? { opacity: 1, scale: 1 } : {}}
                   transition={{ delay: 0.6, duration: 0.5 }}
                 >
-                  5+
+                  2+
                 </motion.div>
                 <div className="text-gray-400 text-sm">Years Experience</div>
               </div>
@@ -176,20 +176,20 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-6">Education & Certifications</h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-primary pl-4">
-                  <h4 className="font-bold text-lg">M.S. in Computer Science</h4>
-                  <p className="text-gray-400 text-sm">Specialization in Machine Learning</p>
-                  <p className="text-gray-500 text-xs">University Name • 2019-2021</p>
+                  <h4 className="font-bold text-lg">B.Tech in Electronics & Communication</h4>
+                  <p className="text-gray-400 text-sm">First Class</p>
+                  <p className="text-gray-500 text-xs">APJ Abdul Kalam Technological University • 2018-2022</p>
                 </div>
                 <div className="border-l-4 border-secondary pl-4">
-                  <h4 className="font-bold text-lg">B.Tech in Information Technology</h4>
-                  <p className="text-gray-400 text-sm">First Class with Distinction</p>
-                  <p className="text-gray-500 text-xs">College Name • 2015-2019</p>
+                  <h4 className="font-bold text-lg">Certified Data Science Professional</h4>
+                  <p className="text-gray-400 text-sm">Codeme Hub International Pvt Ltd</p>
+                  <p className="text-gray-500 text-xs">2022-2023</p>
                 </div>
-                <div className="border-l-4 border-accent-purple pl-4">
+                {/* <div className="border-l-4 border-accent-purple pl-4">
                   <h4 className="font-bold text-lg">AWS Machine Learning Specialty</h4>
                   <p className="text-gray-400 text-sm">Amazon Web Services</p>
                   <p className="text-gray-500 text-xs">2022</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </motion.div>

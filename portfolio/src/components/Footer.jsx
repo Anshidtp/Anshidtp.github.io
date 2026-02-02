@@ -67,7 +67,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-400 text-sm flex items-center">
-            Made with <Heart className="w-4 h-4 text-primary mx-1 fill-current" /> by Your Name © 2024
+            Made with <Heart className="w-4 h-4 text-primary mx-1 fill-current" /> by Anshid © 2026
           </p>
           <p className="text-gray-400 text-sm">
             All rights reserved.

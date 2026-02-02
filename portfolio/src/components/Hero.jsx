@@ -175,7 +175,7 @@ const Hero = () => {
                       <div className="text-xs text-gray-400">Projects</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-secondary">5+</div>
+                      <div className="text-2xl font-bold text-secondary">2+</div>
                       <div className="text-xs text-gray-400">Years Exp</div>
                     </div>
                     <div>

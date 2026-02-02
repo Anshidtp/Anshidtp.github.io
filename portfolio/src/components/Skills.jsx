@@ -10,7 +10,7 @@ const Skills = () => {
   const skillCategories = [
     {
       category: 'Programming Languages',
-      skills: ['Python', 'JavaScript', 'R', 'SQL', 'Java', 'C++'],
+      skills: ['Python', 'JavaScript', 'SQL', 'C', 'C++'],
       color: 'from-primary to-primary-dark',
     },
     {
@@ -35,7 +35,7 @@ const Skills = () => {
     },
     {
       category: 'Data Visualization',
-      skills: ['Tableau', 'Power BI', 'D3.js', 'Matplotlib', 'Plotly', 'Seaborn'],
+      skills: ['Excel', 'Power BI', 'D3.js', 'Matplotlib', 'Plotly', 'Seaborn'],
       color: 'from-accent-pink to-pink-600',
     },
     {
@@ -172,12 +172,13 @@ const Skills = () => {
               
               <div className="space-y-8">
                 {[
-                  { year: '2019', tech: 'Python, SQL, Tableau' },
-                  { year: '2020', tech: 'TensorFlow, Scikit-learn, AWS' },
-                  { year: '2021', tech: 'PyTorch, Docker, Kubernetes' },
-                  { year: '2022', tech: 'Transformers, MLOps, FastAPI' },
-                  { year: '2023', tech: 'LLMs, RAG, Vector Databases' },
-                  { year: '2024', tech: 'Advanced AI Agents, Multi-modal AI' },
+                  { year: '2019', tech: 'Python, SQL, C, C++' },
+                  { year: '2020', tech: 'Numpy, Pandas, Scikit-learn, AWS' },
+                  { year: '2021', tech: 'PyTorch, Docker, TensorFlow , Open CV' },
+                  { year: '2022', tech: 'Transformers, MLOps, FastAPI, PowerBI',  },
+                  { year: '2023', tech: 'LLMs, YOLO, MediaPipe , Excel' },
+                  { year: '2024', tech: 'RAG, Vector Databases ,VLMs' },
+                  { year: '2025', tech: 'Advanced AI Agents, Multi-modal AI' },
                 ].map((item, index) => (
                   <motion.div
                     key={index}
