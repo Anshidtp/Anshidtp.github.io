@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Mail, Phone, MapPin, Send, Linkedin, Github, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Linkedin, Github, Instagram } from 'lucide-react';
 
 const Contact = () => {
   const [ref, inView] = useInView({
@@ -39,19 +39,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com',
+      value: 'connect.anshid@gmail.com',
+      link: 'mailto:connect.anshid@gmail.com',
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+91 9895989631',
+      link: 'tel:+919895989631',
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Bangalore, India',
       link: null,
     },
   ];
@@ -60,20 +60,20 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-6 h-6" />,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://www.linkedin.com/in/anshid-tp/',
       color: 'from-blue-500 to-blue-600',
     },
     {
       icon: <Github className="w-6 h-6" />,
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Anshidtp',
       color: 'from-gray-600 to-gray-800',
     },
     {
-      icon: <Twitter className="w-6 h-6" />,
-      name: 'Twitter',
-      url: 'https://twitter.com/yourusername',
-      color: 'from-sky-400 to-sky-500',
+      icon: <Instagram className="w-6 h-6" />,
+      name: 'Instagram',
+      url: 'https://www.instagram.com/__anshid__aj_',
+      color: 'from-pink-500 to-pink-600',
     },
   ];
 
