@@ -43,7 +43,7 @@ const Header = () => {
             <Code2 className="w-8 h-8 text-primary" />
             <Sparkles className="w-4 h-4 text-secondary absolute -top-1 -right-1 animate-pulse" />
           </div>
-          <span className="gradient-text">AI.Portfolio</span>
+          <span className="gradient-text"></span>
         </motion.a>
 
         {/* Desktop Navigation */}
